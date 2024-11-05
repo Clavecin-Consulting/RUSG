@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "USG_Volunteers",
+    "slug": "USG_Volunteers",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/rusg.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.junone.USGVolunteers"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/rusg.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.junone.USG_Volunteers"
+    },
+    "web": {
+      "favicon": "./assets/rusg.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "263ab074-1cd7-4760-a4a0-28d736a3b548"
+      }
+    },
+    "scheme": "USG_Volunteers",
+    "plugins": ["@react-native-google-signin/google-signin"]
+  }
+}
